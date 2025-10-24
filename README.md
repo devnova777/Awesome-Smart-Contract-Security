@@ -1,162 +1,198 @@
 # 🛡️ Awesome Smart Contract Security: Your Ultimate Guide 🛡️
 
-![GitHub stars](https://img.shields.io/github/stars/moeinfatehi/Awesome-Smart-Contract-Security)
-![GitHub license](https://img.shields.io/github/license/moeinfatehi/Awesome-Smart-Contract-Security)
+![GitHub stars](https://img.shields.io/github/stars/devnova777/Awesome-Smart-Contract-Security?style=for-the-badge)
+![GitHub license](https://img.shields.io/github/license/devnova777/Awesome-Smart-Contract-Security?style=for-the-badge)
+![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen?style=for-the-badge)
+![Last Updated](https://img.shields.io/github/last-commit/devnova777/Awesome-Smart-Contract-Security?style=for-the-badge)
+
+---
 
 ## 📚 Table of Contents
 
-- [🎯 Introduction](#-introduction)
-- [🤝 How This Repo Can Help](#-how-this-repo-can-help)
-- [🐛 Vulnerabilities](#-vulnerabilities)
-  - [Discover Vulnerabilities](./Vulnerabilities/README.md)
-- [📚 Learning Resources](#-learning-resources)
-  - [Blogs](./Learning_Resources/Blogs.md)
-  - [Books](./Learning_Resources/Books.md)
-  - [Courses](./Learning_Resources/Courses.md)
-  - [Papers](./Learning_Resources/Papers.md)
-- [🔬 Technical Resources](#-technical-resources)
-  - [Public Audit Reports](./Technical_Resources/Public_Audit_Reports.md)
-  - [Security Best Practices](./Technical_Resources/Security_Best_Practices.md)
-  - [Smart Contract Auditing Companies](./Technical_Resources/Smart_Contract_Auditing_Companies.md)
-  - [Smart Contract Auditing Tools](./Technical_Resources/Smart_Contract_Auditing_Tools.md)
-- [🌐 Community Resources](#-community-resources)
-  - [Conferences & Events](./Community/Conferences_Events.md)
-  - [Job Boards](./Community/Job_Boards.md)
-  - [CTFs & Wargames](./Community/CTFs_Wargames.md)
-  - [Talks & Podcasts](./Community/Talks_Podcasts.md)
-- [🛣️ Recommended Learning Path](#-recommended-learning-path)
-- [📝 Changelog](#-changelog)
-  - [Check it out here](./Changelog/README.md)
-- [🙏 Want to Contribute?](#-want-to-contribute)
-  - [Contribution Guidelines](./CONTRIBUTING.md)
-- [📜 License](#-license)
-  - [Read License](./LICENSE)
-
+* [🎯 Introduction](#-introduction)
+* [🤝 How This Repo Can Help](#-how-this-repo-can-help)
+* [🐛 Vulnerabilities](#-vulnerabilities)
+* [📖 Learning Resources](#-learning-resources)
+* [🧠 Advanced Topics](#-advanced-topics)
+* [🛠️ Technical Resources](#-technical-resources)
+* [🌐 Community Resources](#-community-resources)
+* [🛣️ Recommended Learning Path](#-recommended-learning-path)
+* [📜 Changelog](#-changelog)
+* [🙏 Want to Contribute?](#-want-to-contribute)
+* [📝 License](#-license)
 
 ---
 
 ## 🎯 Introduction
 
-Welcome to **Awesome Smart Contract Security**, your comprehensive resource for everything related to smart contract security, blockchain security, and decentralized application (DApp) security. Perfect for CEOs, CTOs, and decision-makers looking to fortify their blockchain initiatives.
+Welcome to **Awesome Smart Contract Security**, the ultimate collection of resources to help you **build, audit, and secure blockchain applications**.
+
+Whether you're a **developer**, **security researcher**, or **decision-maker**, this guide will help you navigate the rapidly evolving world of smart contract and blockchain security.
+
+> 🧩 Perfect for: Solidity developers, auditors, Web3 startups, CTOs, and blockchain enthusiasts.
 
 ---
 
 ## 🤝 How This Repo Can Help
 
-Unlock the full potential of blockchain technology with this curated list of resources. Ideal for developers, security analysts, blockchain enthusiasts, and business leaders.
+Unlock the full potential of decentralized technology by mastering the **security foundations of smart contracts**.
 
-**Keywords**: Blockchain Security, Smart Contract Auditing, DApp Security, Ethereum Security, Solidity Best Practices
+Here, you'll find:
+
+* 🔍 Vulnerability breakdowns with examples
+* 📘 Learning paths for beginners and professionals
+* 🧰 Audit tools, best practices, and checklists
+* 🎓 Courses, books, and whitepapers
+* 🌍 Communities and job boards
+
+**Keywords:** Blockchain Security, Smart Contract Auditing, Web3 Security, Solidity, Ethereum, DeFi, Security Best Practices
 
 ---
 
-## 🔒 Vulnerabilities
+## 🐛 Vulnerabilities
 
-Discover the most common smart contract vulnerabilities and learn how to avoid them. A must-read for anyone serious about blockchain security.
+Learn about the **most critical vulnerabilities** affecting smart contracts and how to prevent them.
 
-- [Explore Vulnerabilities](./Vulnerabilities/README.md)
-  - ### Common Vulnerabilities
-    - Reentrancy
-    - Integer Overflow
-    - ...
+* [Explore Vulnerabilities](./Vulnerabilities/README.md)
 
-**Keywords**: Smart Contract Vulnerabilities, Blockchain Risks, Security Pitfalls
+### Common Vulnerabilities
+
+* Reentrancy
+* Integer Overflow / Underflow
+* Front-running
+* Denial of Service
+* Timestamp Dependence
+* Access Control Misconfigurations
+* Logic Errors
+* Flash Loan Attacks
+
+**Keywords:** Smart Contract Risks, Ethereum Exploits, Security Flaws
 
 ---
 
 ## 📖 Learning Resources
 
-From blogs and academic papers to comprehensive books and courses, we've got all your learning needs covered.
+Level up your blockchain security knowledge with curated resources:
 
-- [Dive into Learning Resources](./Learning_Resources/README.md)
-  - **Blogs**: Get insights from industry experts. [Read more](./Learning_Resources/Blogs.md)
-  - **Books**: Deep dive into smart contract security. [Read more](./Learning_Resources/Books.md)
-  - **Courses**: Structured learning for all levels. [Read more](./Learning_Resources/Courses.md)
-  - **Papers**: Academic research and whitepapers. [Read more](./Learning_Resources/Papers.md)
+* [All Learning Resources](./Learning_Resources/README.md)
 
-**Keywords**: Blockchain Education, Smart Contract Courses, Ethereum Development
+  * **[Blogs](./Learning_Resources/Blogs.md)** — Industry insights and case studies
+  * **[Books](./Learning_Resources/Books.md)** — Comprehensive guides for deep understanding
+  * **[Courses](./Learning_Resources/Courses.md)** — Structured learning paths
+  * **[Papers](./Learning_Resources/Papers.md)** — Cutting-edge academic research
+
+**Keywords:** Blockchain Education, Ethereum Security, DeFi Hacking, Solidity Learning
+
+---
+
+## 🧠 Advanced Topics
+
+Take your skills to the next level with advanced security methodologies and emerging areas in Web3 security.
+
+* **Formal Verification** — Learn to mathematically prove contract correctness.
+* **ZK (Zero-Knowledge) Security** — Explore ZK rollups, SNARKs, and STARKs.
+* **AI-Assisted Auditing** — Discover how LLMs and AI tools enhance smart contract analysis.
+* **Cross-Chain Security** — Understand bridges, interoperability risks, and mitigations.
+* **Layer 2 Security** — Secure rollups, optimistic mechanisms, and sequencers.
+* **MEV & Flashbots** — Study miner extractable value and its defense mechanisms.
+
+**Keywords:** Formal Verification, AI Auditing, L2 Security, ZK Proofs, MEV
 
 ---
 
 ## 🛠️ Technical Resources
 
-Get hands-on with our technical guides, best practices, and auditing tools.
+Hands-on tools and references to implement secure smart contract development and auditing.
 
-- [Check out Technical Resources](./Technical_Resources/README.md)
-  - **Public Audit Reports**: Learn from real-world audits. [Read more](./Technical_Resources/Public_Audit_Reports.md)
-  - **Security Best Practices**: Stay ahead of the curve. [Read more](./Technical_Resources/Security_Best_Practices.md)
-  - **Smart Contract Auditing Companies**: Know who to trust. [Read more](./Technical_Resources/Smart_Contract_Auditing_Companies.md)
-  - **Smart Contract Auditing Tools**: Equip yourself with the best tools. [Read more](./Technical_Resources/Smart_Contract_Auditing_Tools.md)
+* [Technical Resources Overview](./Technical_Resources/README.md)
 
-**Keywords**: Blockchain Auditing, Smart Contract Tools, Security Guidelines
+  * **[Public Audit Reports](./Technical_Resources/Public_Audit_Reports.md)** — Learn from real-world case studies.
+  * **[Security Best Practices](./Technical_Resources/Security_Best_Practices.md)** — Standards and implementation tips.
+  * **[Smart Contract Auditing Companies](./Technical_Resources/Smart_Contract_Auditing_Companies.md)** — Top global players.
+  * **[Smart Contract Auditing Tools](./Technical_Resources/Smart_Contract_Auditing_Tools.md)** — From static analyzers to AI-powered tools.
+
+🧩 *Coming soon:* AI Audit Tools, ZK Verifiers, and L2 Auditing Frameworks.
+
+**Keywords:** Blockchain Auditing, Security Tools, Solidity Analysis
 
 ---
 
 ## 🌐 Community Resources
 
-Stay updated and network with the community through conferences, talks, and podcasts.
+Join the security ecosystem and stay up to date with the latest events and opportunities.
 
-- [Join the Community](./Community/README.md)
-  - **Conferences & Events**: Stay updated with the latest conferences and events. [Read more](./Community/Conferences_Events.md)
-  - **Job Boards**: Find your next gig in smart contract security. [Read more](./Community/Job_Boards.md)
-  - **CTFs & Wargames**: Hone your skills with Capture the Flag competitions and wargames. [Read more](./Community/CTFs_Wargames.md)
-  - **Talks & Podcasts**: Listen to experts and stay updated. [Read more](./Community/Talks_Podcasts.md)
+* [Community Overview](./Community/README.md)
 
+  * **[Conferences & Events](./Community/Conferences_Events.md)** — Meet experts in Web3 security.
+  * **[Job Boards](./Community/Job_Boards.md)** — Find security-related roles.
+  * **[CTFs & Wargames](./Community/CTFs_Wargames.md)** — Practice your skills in gamified settings.
+  * **[Talks & Podcasts](./Community/Talks_Podcasts.md)** — Keep up with industry voices.
 
-**Keywords**: Blockchain Community, Smart Contract Events, Security Podcasts
+**Keywords:** Blockchain Events, Smart Contract Security Jobs, Web3 Networking
 
 ---
 
 ## 🛣️ Recommended Learning Path
 
-1. **Understand the Basics**: 
-    - Start with the **Introduction** section to get a grasp of what smart contract security entails.
-    - Move on to **How This Repo Can Help** to understand how to navigate the resources available.
+1. **Start Here:**
 
-2. **Know Your Enemy**: 
-    - Head over to **Vulnerabilities** to understand the common pitfalls and security risks in smart contracts.
-        - [Discover Vulnerabilities](./Vulnerabilities/README.md)
+   * [Introduction](#-introduction) → [How This Repo Can Help](#-how-this-repo-can-help)
 
-3. **Equip Yourself with Knowledge**: 
-    - Go through **Learning Resources**.
-        - **Blogs**: Start with blogs to get a current understanding of the landscape. [Read more](./Learning_Resources/Blogs.md)
-        - **Papers**: For a deeper understanding, read academic papers. [Read more](./Learning_Resources/Papers.md)
-        - **Books**: Then, dive into books for comprehensive knowledge. [Read more](./Learning_Resources/Books.md)
-        - **Courses**: Finally, take some courses to get hands-on experience. [Read more](./Learning_Resources/Courses.md)
+2. **Understand Threats:**
 
-4. **Get Technical**: 
-    - Visit **Technical Resources**.
-        - **Smart Contract Auditing Tools**: Familiarize yourself with the tools available for auditing. [Read more](./Technical_Resources/Smart_Contract_Auditing_Tools.md)
-        - **Security Best Practices**: Implement what you've learned in a secure manner. [Read more](./Technical_Resources/Security_Best_Practices.md)
-        - **Public Audit Reports**: Review these to understand what to look for in an audit. [Read more](./Technical_Resources/Public_Audit_Reports.md)
+   * [Vulnerabilities](./Vulnerabilities/README.md)
 
-5. **Know the Industry**: 
-    - Check out **Smart Contract Auditing Companies** to understand the key players in the field.
-        - [Read more](./Technical_Resources/Smart_Contract_Auditing_Companies.md)
+3. **Build Knowledge:**
 
-6. **Engage and Update**: 
-    - Finally, keep yourself updated and network through **Community Resources**.
-        - **Conferences & Events**: Attend these to stay updated and network. [Read more](./Community/Conferences_Events.md)
-        - **Talks & Podcasts**: Listen to these for ongoing learning. [Read more](./Community/Talks_Podcasts.md)
+   * [Learning Resources](./Learning_Resources/README.md)
 
-7. **Hands-On Practice**: 
-    - Participate in **CTFs & Wargames** to test your skills in a practical environment.
-        - [Read more](./Community/CTFs_Wargames.md)
+4. **Get Practical:**
 
+   * [Technical Resources](./Technical_Resources/README.md)
+
+5. **Deep Dive:**
+
+   * [Advanced Topics](#-advanced-topics)
+
+6. **Engage & Grow:**
+
+   * [Community Resources](./Community/README.md)
+
+7. **Stay Current:**
+
+   * [Changelog](./Changelog/README.md)
+
+---
 
 ## 📜 Changelog
 
-Stay up-to-date with the latest additions and updates to this repository.
+Track repository updates, new resources, and structural improvements.
 
-- [See What's New](./Changelog/README.md)
+* [See What’s New](./Changelog/README.md)
 
 ---
 
 ## 🙏 Want to Contribute?
 
-We welcome contributions! Feel free to open a pull request or reach out to us. For more details on how to contribute, check out our [Contribution Guidelines](./CONTRIBUTING.md).
+Contributions are **highly encouraged!**
+You can:
+
+* Submit pull requests
+* Add new resources or tools
+* Suggest updates or corrections
+
+See the [Contribution Guidelines](./CONTRIBUTING.md) for details.
 
 ---
 
 ## 📝 License
 
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for
+This project is licensed under the **MIT License**.
+See the [LICENSE](./LICENSE) file for details.
+
+---
+
+### ⭐ If you find this repo useful, don’t forget to star it on GitHub!
+
+Your support helps make the Web3 security community stronger.
+
